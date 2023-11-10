@@ -73,13 +73,13 @@ const Layout = () => {
                 // className={styles.headerContainer}
                 >
                     <Stack horizontal verticalAlign="center">
-                        <img
-                            src={Azure}
-                            className={styles.headerIcon}
-                            aria-hidden="true"
-                        />
+                        {/*<img*/}
+                        {/*    src={Azure}*/}
+                        {/*    className={styles.headerIcon}*/}
+                        {/*    aria-hidden="true"*/}
+                        {/*/>*/}
                         <Link to="/" className={styles.headerTitleContainer}>
-                            <h1 className={styles.headerTitle}>Azure AI</h1>
+                            <h1 className={styles.headerTitle}>Biggio Bot</h1>
                         </Link>
                     </Stack>
                     <Stack horizontal tokens={{ childrenGap: 4 }}>
